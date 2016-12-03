@@ -1,0 +1,237 @@
+html, body{margin:0;}
+body {font-family: "verdana";
+}
+
+
+
+#wrapper{ max-width:100%;
+		  margin:auto;
+
+}
+
+header{background-color:white
+	;
+	   height:100px;
+	   z-index:1000;
+	   width:100%;
+		position:fixed;
+		top:0;
+		margin:0;
+		border-bottom: 5px solid darkgrey;
+
+
+}
+header img{float:left;
+			margin:auto 0 auto 25px;}
+
+header nav ul{float:right;}
+
+
+nav ul li {display:inline-block; margin-top: 20px;
+			}
+
+nav ul li a{ padding:20px; text-decoration: none; color: grey; }
+nav ul li a:hover {background-color: #2AA4FF;
+				color:#fff;}
+
+
+
+article{margin-top: 500px;
+		background-color: #f1f1f1;
+		padding: 10px;
+		min-height: 850px;
+		z-index: 900;
+
+}
+
+#pageHeading h1 {font-size: 2.5em;
+					color: white;
+					z-index: -99;
+					margin-top: 100px;
+					padding: 25px;
+					text-align: center;
+					width: 100%;
+					height: 50px;
+					background-color: rgba(0,0,0,0.2);
+					position: fixed;
+					top: 0;
+}
+
+#fixedBackground {	width: 100%;
+					min-height: 500px;
+					background-image: url("images/background2.jpg");
+					background-position: bottom;
+					position: fixed;
+					top:0;
+					left:0;
+					z-index: -100}
+
+#fixedBackground2 {	width: 100%;
+					min-height: 500px;
+					background-image: url("images/background6.jpg");
+					background-position: bottom;
+					position: fixed;
+					top:0;
+					left:0;
+					z-index: -100}
+
+#fixedBackground3 {	width: 100%;
+					min-height: 500px;
+					background-image: url("images/background5.jpg");
+					background-position: bottom;
+					position: fixed;
+					top:0;
+					left:0;
+					z-index: -100}
+
+.contentBox {width: 70%;
+		min-height: 350px;
+		background-color: white;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+		border-radius: 5px;
+		box-shadow: 2px 2px 5px #888888;
+		margin-bottom: 10px;
+
+}
+
+
+.textBox{float: left;
+			width: 44%;
+			padding: 20px;
+			}
+
+.textBox h1{margin: 0;
+			font-size: 1.3em;}
+
+
+/* hero one is the class for images in the content */
+
+.hero1{		float: left;
+			width:45%;
+			padding: 20px;
+			}
+
+footer{clear: both;
+		height: 65px;
+		width: 100%;
+		background-color: #2AA4FF;
+		color: white;
+		font-size: 0.5em;
+		text-align: center;
+		margin:0;
+
+
+}
+
+#footerText{width: 700px;
+			padding: 5px;
+			margin-left: auto;
+			margin-right: auto;
+
+
+}
+
+/* Bellow are the codes for small content boxex in the articles page */
+
+.contentSmallBox {width: 72%;
+
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+
+}
+
+.smallTextBox{width: 29%;
+
+		margin-right: 5px;
+		background-color: white;
+		float: left;
+		padding: 20px;
+		border-radius: 5px;
+		box-shadow: 2px 2px 5px #888888;
+		margin-bottom: 10px;
+
+}
+
+
+/* Bellow are the codes for table in the services page */
+
+#tableContainer{clear:both;
+				width: 70%;
+				min-height: 300px;
+				background-color: white;
+				margin-top: 10px;
+				margin-left: auto;
+				margin-right: auto;
+				border-radius: 5px;
+				box-shadow: 2px 2px 5px #888888;
+				padding: 10px;
+
+}
+
+#servicesTable{border: 1px solid #f1f1f1;
+				width: 98%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+#servicesTable td{ background-color: #f2f2f2;
+					padding: 10px;
+					text-align: center;
+			}
+#servicesTable th{border: 1px solid #f1f1f1;
+					font-size: 1.2em;
+					background-color: #2AA4FF;
+					color: white;
+			}
+
+
+
+
+
+/* Bellow are the codes for contact form in contact page */
+
+#contactArticle {background-image: url("images/background2.jpg");
+				overflow: hidden;
+				margin-bottom: 0;
+
+
+}
+
+article #formAndMap{width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 100px;
+
+}
+
+#formBox{width: 49%;
+		height: 500px;
+		padding: 20px;
+		 border: 1px solid grey;
+		 float:left;
+		 background-color: #f1f1f1;
+		 opacity: 0.9;
+
+}
+
+#map {width: 45%;
+		height: 540px;
+		border: 1px solid grey;
+		float: right;
+		background-color: #f1f1f1;
+		opacity: 0.9;
+}
+
+#map #boxMap {width: 90%;
+		height: 500px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 20px;
+		color: white;
+		text-align: center;
+		z-index: 100;
+		overflow: scroll;
+		background-image: url("images/rusianhq.png");
+		}

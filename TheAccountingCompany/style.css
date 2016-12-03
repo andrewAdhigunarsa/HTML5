@@ -1,0 +1,149 @@
+html, body{margin:0;}
+body {font-family: "verdana"}
+
+#wrapper{ max-width:100%;
+		  margin:auto;
+}
+
+header{background-color:white;
+	   min-height:100px;
+	   z-index:10;
+	   width:100%;
+		position:fixed;
+		top:0;
+		margin:0;
+		border-bottom: 5px solid darkgrey;
+
+
+}
+header img{float:left;
+			margin:auto 0 auto 35px;}
+
+header nav ul{float:right;}
+
+nav {margin-right: 30px;}
+
+nav ul li {display:inline-block; margin-top: 20px;
+			text-decoration: none;
+			}
+
+nav ul li a{ padding:10px; text-decoration: none; color: grey;}
+nav ul li a:hover {background-color: #2AA4FF;
+				color:#fff;}
+#overView{float:left;
+			margin-top:85px;
+			background-color: #FF60A0;
+			height:700px;
+			width:30%;
+			color: white;
+			position: relative;
+			}
+
+#overView h1{font-size: 2em;
+				margin: 50px 40px 0 40px;}
+
+#overView p{margin: 10px 40px 0 40px;}
+
+#part1 {width:100%;
+}
+
+#part2{width:100%;
+		margin:0;
+		min-height: 700px;
+		background-color: #fafafa;
+		clear:both;
+
+}
+
+#imageButton{width: 80%;
+			margin:auto;
+}
+
+#imageButton li{display: inline-block;
+			margin-top: 150px;
+			margin-right: 2%;
+			margin-left: 2%;
+			width: 320px;
+			height: 220px;
+			background-color: grey;
+}
+
+#imageButton li:hover {background-color: #fff;
+				opacity: 0.8}
+.thumbnail{
+			overflow: hidden;
+			width: 320px;
+			height: 320px;
+
+
+}
+#part3{width:100%;
+		margin:0;
+		min-height: 600px;
+		background-color: lightgrey;
+		clear:both;
+
+}
+
+
+
+#puttinWord{margin-left: 22%;
+			margin-top: 50px;
+			width: 50%;
+			min-height: 250px;
+			float:left;
+			background-color: white;
+			padding: 30px;
+			border-radius: 10px;
+			clear:both;
+
+}
+
+#puttinWord p{float:left;
+			min-width: 300px;
+			position: relative;
+			width: 30%;
+
+
+}
+#puttinWord h1{float:left;
+			min-width: 300px;
+			position: relative;
+			width: 30%;
+			margin-top: 50px;
+
+
+}
+#puttinPhoto{
+	width: 250px;
+	margin-right: 30px;
+	border-radius: 50%;
+	float: left;
+
+}
+
+#backToTopButton{
+				padding: 70px;
+				margin-left:41%;
+				clear: both;			
+
+}
+
+footer{position:fixed; bottom:0;
+		min-height: 70px;
+		width: 100%;
+		background-color: #2AA4FF;
+		color: white;
+		font-size: 0.5em;
+		text-align: center;
+
+
+		}
+
+#footerText{max-width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+
+
+
+}
